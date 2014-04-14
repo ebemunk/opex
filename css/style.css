@@ -1,0 +1,79 @@
+.move-alternative {
+	opacity: 0.25;
+	z-index: 10 !important;
+}
+
+.move-alternative:hover {
+	opacity: 0.85;
+	cursor: pointer;
+}
+
+#boardwrap img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	margin: 0 !important;
+}
+
+.move-row {
+	border: 1px solid white;
+	padding: 1px 15px;
+	margin: 0 -5px;
+}
+.move-row:hover {
+	background-color: rgb(247, 247, 249);
+	border-top: 1px solid rgb(225, 225, 232);
+	border-bottom: 1px solid rgb(225, 225, 232);
+	cursor: pointer;
+}
+
+.feninput {
+	width: 100%;
+	height: 40px;
+	padding: 3px;
+}
+
+.opening-name {
+	margin-bottom: 10px;
+}
+.title {
+	margin-top: 0px;
+	padding-left: 10px;
+}
+
+body {
+    background-image:
+    -moz-linear-gradient(45deg, rgb(245,245,245) 25%, transparent 25%,transparent 75%, rgb(245,245,245) 75%, rgb(245,245,245) 100%),
+    -moz-linear-gradient(45deg, rgb(245,245,245) 25%, transparent 25%,transparent 75%, rgb(245,245,245) 75%, rgb(245,245,245) 100%);
+    background-image:
+    -webkit-linear-gradient(45deg, rgb(245,245,245) 25%, transparent 25%,transparent 75%, rgb(245,245,245) 75%, rgb(245,245,245) 100%),
+    -webkit-linear-gradient(45deg, rgb(245,245,245) 25%, transparent 25%,transparent 75%, rgb(245,245,245) 75%, rgb(245,245,245) 100%);
+    -moz-background-size:100px 100px;
+    background-size:100px 100px;
+    -webkit-background-size:101px 101px;
+    background-position:0 0, 50px 50px;
+
+    font-family: 'Open Sans' !important;
+}
+
+#listwrap > .row > div {
+	background-color: white;
+	border-radius: 5px;
+	padding: 5px;
+	padding-bottom: 10px;
+	border: 1px solid rgb(225, 225, 232);
+	margin-bottom: 10px;
+}
+
+#board {
+}
+
+.boardbtns {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.notation {
+	padding: 5px 15px;
+}
