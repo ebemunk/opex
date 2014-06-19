@@ -31,7 +31,7 @@ angular.module('op')
 				}
 			},
 			onDrop: function(source, target) {
-				var move = scope.game.move({
+				var move = scope.board.move({
 					from: source,
 					to: target,
 					promotion: 'q'
@@ -55,7 +55,7 @@ angular.module('op')
 
 				if(move != null)
 					chessboard.position(scope.game.fen());
-
+// console.log(move, chessboard.position());
 				return move;
 			},
 			reset: function() {
