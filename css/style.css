@@ -3,7 +3,7 @@
 	z-index: 10 !important;
 }
 
-.move-alternative:hover {
+.move-alternative:hover, .move-alternative-hovered {
 	opacity: 0.85;
 	cursor: pointer;
 }
@@ -17,9 +17,6 @@
 }
 
 .move-row {
-	border: 1px solid white;
-	padding: 1px 15px;
-	margin: 0 -5px;
 }
 .move-row:hover {
 	background-color: rgb(247, 247, 249);
@@ -34,36 +31,7 @@
 	padding: 3px;
 }
 
-.opening-name {
-	margin-bottom: 10px;
-}
-.title {
-	margin-top: 0px;
-	padding-left: 10px;
-}
-
 body {
-    background-image:
-    -moz-linear-gradient(45deg, rgb(245,245,245) 25%, transparent 25%,transparent 75%, rgb(245,245,245) 75%, rgb(245,245,245) 100%),
-    -moz-linear-gradient(45deg, rgb(245,245,245) 25%, transparent 25%,transparent 75%, rgb(245,245,245) 75%, rgb(245,245,245) 100%);
-    background-image:
-    -webkit-linear-gradient(45deg, rgb(245,245,245) 25%, transparent 25%,transparent 75%, rgb(245,245,245) 75%, rgb(245,245,245) 100%),
-    -webkit-linear-gradient(45deg, rgb(245,245,245) 25%, transparent 25%,transparent 75%, rgb(245,245,245) 75%, rgb(245,245,245) 100%);
-    -moz-background-size:100px 100px;
-    background-size:100px 100px;
-    -webkit-background-size:101px 101px;
-    background-position:0 0, 50px 50px;
-
-    font-family: 'Open Sans' !important;
-}
-
-#listwrap > .row > div {
-	background-color: white;
-	border-radius: 5px;
-	padding: 5px;
-	padding-bottom: 10px;
-	border: 1px solid rgb(225, 225, 232);
-	margin-bottom: 10px;
 }
 
 #board {
@@ -76,4 +44,33 @@ body {
 
 .notation {
 	padding: 5px 15px;
+}
+
+.list-group {
+	font-size: 15px;
+}
+
+.list-group-item {
+	padding: 2px 15px;
+}
+
+.panel-title {
+	font-size: 20px;
+}
+
+.navbar-brand {
+	text-shadow: -1px -1px 1px gray;
+}
+
+.btn {
+	padding: 10px 26px;
+	font-size: 18px;
+}
+
+.input-group-addon {
+	font-size: 15px;
+}
+
+.fen-selector {
+	cursor: pointer;
 }
