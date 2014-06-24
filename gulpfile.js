@@ -4,14 +4,17 @@ var gulp = require('gulp'),
 	minifycss = require('gulp-minify-css');
 
 var paths = {
-	js: ['js/*.js'],
+	js: [
+		'js/op.js',
+		'js/*.js'
+	],
 	css: ['css/*.css']
 };
 
 gulp.task('js', function() {
 	return gulp.src(paths.js)
 		.pipe(concat('op.js'))
-		// .pipe(uglify())
+		.pipe(uglify())
 		.pipe(gulp.dest('build'));
 });
 
