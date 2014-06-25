@@ -74,3 +74,13 @@ body {
 .fen-selector {
 	cursor: pointer;
 }
+
+ul.nav .fb:hover { background-color: #0a88ff !important; }
+ul.nav .tw:hover { background-color: #26c4f1 !important; }
+ul.nav .gp:hover { background-color: #e93f2e !important; }
+ul.nav .gh:hover { background-color: #444 !important; }
+ul.nav .rd:hover { background-color: #8bbbe3 !important; }
+
+.sharers li a span {
+	font-size: 16px;
+}
