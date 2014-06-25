@@ -8,7 +8,10 @@ var paths = {
 		'js/op.js',
 		'js/*.js'
 	],
-	css: ['css/*.css']
+	css: [
+		'css/*.css',
+		'css/style.css'
+	]
 };
 
 gulp.task('js', function() {
