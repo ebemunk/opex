@@ -30,6 +30,18 @@ angular.module('op').directive('pieceHighlight', function () {
 });
 
 angular.module('op')
+.directive('popup', function() {
+	return {
+		restrict: 'A',
+		link: function(scope, element, attrs) {
+			element.on('click', function() {
+				window.open(attrs.popup, 'share_popup', 'height=320, width=640, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, directories=no, status=no');
+			});
+		}
+	}
+});
+
+angular.module('op')
 .controller('boardCtrl', [
 	'$scope',
 	'$http',
