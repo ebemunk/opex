@@ -14,7 +14,7 @@ d888 '88%"  9888  888E d888 '88%"   X888  888X '888>    8888  888R     8888  888
    "YP'        "`         "YP'                                                        ""    ""   
 -->
 <head>
-	<base href="/opex/">
+	<base href="/">
 
 	<title>OPEX - Chess Openings Explorer</title>
 
@@ -35,12 +35,11 @@ d888 '88%"  9888  888E d888 '88%"   X888  888X '888>    8888  888R     8888  888
 
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-	
 	<link rel="stylesheet" href="http://bootswatch.com/yeti/bootstrap.min.css">
+
 	<link rel="stylesheet" href="build/op.css">
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.13/angular.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.13/angular-animate.min.js"></script>
 
@@ -57,17 +56,23 @@ d888 '88%"  9888  888E d888 '88%"   X888  888X '888>    8888  888R     8888  888
 		<div class="navbar-right">
 			<ul class="nav navbar-nav sharers">
 				<li>
-					<a href="#" class="fb" popup="http://www.facebook.com/sharer/sharer.php?u=opex.ebemunk.com&t=Chess Openings Explorer">
+					<a href="#" class="fb"
+						popup="http://www.facebook.com/sharer/sharer.php?u=opex.ebemunk.com&t=Chess Openings Explorer"
+						piwik-event="Social Share,Facebook">
 						<span class="fa fa-facebook"></span>
 					</a>
 				</li>
 				<li>
-					<a href="#" class="tw" popup="http://twitter.com/home?status=Chess openings explorer, the modern way: http://opex.ebemunk.com">
+					<a href="#" class="tw"
+						popup="http://twitter.com/home?status=Chess openings explorer, the modern way: http://opex.ebemunk.com"
+						piwik-event="Social Share,Twitter">
 						<span class="fa fa-twitter"></span>
 					</a>
 				</li>
 				<li>
-					<a href="#" class="gp" popup="https://plus.google.com/share?url=http://opex.ebemunk.com">
+					<a href="#" class="gp"
+						popup="https://plus.google.com/share?url=http://opex.ebemunk.com"
+						piwik-event="Social Share,Google Plus">
 						<span class="fa fa-google-plus"></span>
 					</a>
 				</li>
@@ -159,21 +164,7 @@ d888 '88%"  9888  888E d888 '88%"   X888  888X '888>    8888  888R     8888  888
 		</div>
 	</div>
 </div>
+<piwik js-url="http://logs.ebemunk.com/piwik.js" php-url="http://logs.ebemunk.com/piwik.php" site-id="5"></piwik>
 
-<!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://logs.ebemunk.com/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 5]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
-    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="http://logs.ebemunk.com/piwik.php?idsite=5" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
 </body>
 </html>
