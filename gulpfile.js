@@ -6,7 +6,7 @@ var gulp = require('gulp'),
 var paths = {
 	js: [
 		'js/op.js',
-		'js/*.js'
+		'js/*.js',
 	],
 	css: [
 		'css/*.css',
