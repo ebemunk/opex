@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('op',
-	['ngAnimate', 'ui.bootstrap', 'throttle', 'piwik']
+	['ngAnimate', 'ui.bootstrap', 'throttle']
 );
 
 angular.module('op').directive('selectOnClick', function () {
@@ -47,7 +47,6 @@ angular.module('op')
 	'$http',
 	'Logic',
 	'throttle',
-	'Piwik',
 	function($scope, $http, Logic, throttle) {
 		$scope.Logic = Logic;
 
